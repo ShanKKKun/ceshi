@@ -1,0 +1,46 @@
+{
+  "name": "dly-vue-js",
+  "keywords": [
+    "ice-scaffold"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "scaffoldConfig": {
+    "type": "vue",
+    "name": "dly-vue-js",
+    "title": "dly-vue-js",
+    "screenshot": "https://img.alicdn.com/tfs/TB1_bulmpOWBuNjy0FiXXXFxVXa-1920-1080.png"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "formatter": "eslint --fix --ext .js,.vue src test/unit/specs test/e2e/specs"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-pwa": "^3.0.1",
+    "axios": "^0.18.0",
+    "clipboard": "^2.0.1",
+    "exif-js": "^2.3.0",
+    "fundebug-javascript": "^1.2.3",
+    "qs": "^6.5.2",
+    "raven-js": "^3.27.0",
+    "register-service-worker": "^1.5.2",
+    "vant": "^1.2.1",
+    "vconsole": "^3.2.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-airbnb": "^3.0.1",
+    "babel-plugin-import": "^1.8.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
